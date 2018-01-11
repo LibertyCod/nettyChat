@@ -39,6 +39,11 @@
         <artifactId>msgpack</artifactId>
         <version>${msgpack-version}</version>
       </dependency>
+      <dependency>
+        <groupId>org.mongodb</groupId>
+        <artifactId>mongo-java-driver</artifactId>
+        <version>${mongodb-version}</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 
@@ -47,6 +52,7 @@
     <junit-version>3.8.1</junit-version>
     <netty-version>5.0.0.Alpha2</netty-version>
     <msgpack-version>0.6.12</msgpack-version>
+    <mongodb-version>3.4.2</mongodb-version>
   </properties>
 
 </project>
