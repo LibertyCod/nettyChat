@@ -6,8 +6,9 @@
         <version>1.0-SNAPSHOT</version>
         <relativePath>../../netty-parent/pom.xml</relativePath>
     </parent>
-    <modelVersion>4.0.0</modelVersion>
 
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.liberty</groupId>
     <artifactId>netchat-client</artifactId>
     <packaging>jar</packaging>
 
@@ -16,20 +17,17 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.liberty</groupId>
+            <artifactId>netchat-common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
         </dependency>
         <dependency>
             <groupId>org.msgpack</groupId>
             <artifactId>msgpack</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>io.netty</groupId>
-            <artifactId>netty-all</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>io.netty</groupId>
-            <artifactId>netty-all</artifactId>
         </dependency>
     </dependencies>
 </project>

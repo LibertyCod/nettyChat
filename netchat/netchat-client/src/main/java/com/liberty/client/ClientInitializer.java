@@ -1,8 +1,8 @@
 package com.liberty.client;
 
 import com.liberty.client.helper.ClientHandler;
-import com.liberty.client.helper.MessageDecoder;
-import com.liberty.client.helper.MessageEncoder;
+import com.liberty.decoder.MessageDecoder;
+import com.liberty.encoder.MessageEncoder;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.handler.codec.LengthFieldBasedFrameDecoder;

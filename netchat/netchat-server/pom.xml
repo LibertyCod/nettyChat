@@ -8,7 +8,7 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-
+    <groupId>com.liberty</groupId>
     <artifactId>netchat-server</artifactId>
     <packaging>jar</packaging>
 
@@ -16,6 +16,11 @@
     <url>https://github.com/LibertyCod/nettyChat</url>
 
     <dependencies>
+        <dependency>
+            <groupId>com.liberty</groupId>
+            <artifactId>netchat-common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
@@ -25,13 +30,8 @@
             <artifactId>msgpack</artifactId>
         </dependency>
         <dependency>
-            <groupId>io.netty</groupId>
-            <artifactId>netty-all</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>io.netty</groupId>
-            <artifactId>netty-codec</artifactId>
-            <version>4.0.27.Final</version>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongo-java-driver</artifactId>
         </dependency>
     </dependencies>
 </project>

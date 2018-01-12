@@ -1,6 +1,6 @@
 package com.liberty.server;
 
-import com.liberty.constants.ServerConstants;
+import com.liberty.constant.ServerConstants;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelOption;
